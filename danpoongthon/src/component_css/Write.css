@@ -1,0 +1,71 @@
+.hole2{
+    background : url('../../public/BG_write.png') no-repeat center;
+    background-color: #F5F5F5;
+    height:100vh;
+    background-size:cover;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.writeDiv{
+    height:100vh;
+    width:1900px;
+    /* background : url('../../public/BG_write.png') no-repeat center; */
+    background-size:cover;
+}
+
+.writerDiv{
+    display:flex;
+    width: 1312px;
+    /* background-color: aliceblue; */
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.writer{
+    font-size:23px;
+    font-weight: bold;
+    margin-right:10px;
+    padding-top:250px;
+
+}
+
+.inputWriter{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top:250px;
+    margin-left:10px;
+    height: 39px;
+    border:1px solid black;
+    font-size:23px;
+}
+
+.inputTextDiv{
+    /* background-color: beige; */
+    width: 1312px;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top:130px;
+}
+
+.inputText{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20.68px;
+    width:500px;
+    border:none;
+    /* border-bottom: 2px solid #616161; */
+    outline: none;
+    resize:none;
+
+    background-attachment:local;
+    background-image:
+    linear-gradient(to right, white 10px, transparent 10px),
+    linear-gradient(to left, white 10px, transparent 10px),
+    repeating-linear-gradient(white, white 35px, #3F3032 35px, #3F3032 38px, white 36px);
+    line-height:33px;
+    padding: 5px 10px;
+
+}
+
+.postBtn{
+    margin-top:100px;
+}

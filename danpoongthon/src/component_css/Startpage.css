@@ -1,0 +1,108 @@
+.startpage{
+    position: relative;
+    width: 1920px;
+    height: 100vh;
+    background: #F4F4F4;
+    background: url('D:\mapleton - 복사본\danpoongthon\public\KakaoTalk_20221119_170054238.png') no-repeat center;
+   
+    overflow-x:hidden;
+    overflow-y:hidden;
+    
+}
+  
+.Titlebox{
+  position: relative;
+  top: 130px;
+  left: 630px;
+  width: 650px;
+  height: 175px;
+  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;;
+  
+}
+
+
+.TitleIcon{
+  width: 30%;
+  height: 100%;
+  margin: 20px;
+  background: url('D:\mapleton - 복사본\danpoongthon\public\KakaoTalk_20221119_170053894.png');
+  background-repeat: no-repeat;
+  background-size: 70%, 100%;
+}
+
+.Title{
+  position: relative;
+  right: 20px;
+
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+  background: url('D:\mapleton - 복사본\danpoongthon\public\KakaoTalk_20221119_170053697.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+ 
+}
+
+
+
+.textbox{
+  position: absolute;
+  bottom: 0px;
+  width: 450px;
+  /*넓이 변경 본래값 : width: 365px;*/
+  height: 82px;
+    
+  left: 735px;
+  top: 320px;
+  
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 150.2%;
+
+  text-align: center;
+  color: #333333;
+}
+
+.movebooks{
+  position: absolute;
+  top: 500px;
+  left: 710px;
+  width: 515px;
+  height: 765px;
+  display: flex;
+  justify-content: row;
+  
+}
+
+.Loginbook1{
+  position: absolute;
+  z-index: 2;
+  width:250px;
+  height: 540px;
+  background: url('../../public/loginbook.png');
+  overflow: hidden;
+
+  
+  
+  
+}
+
+.Joinbook{
+  position: absolute;
+  z-index: 1;
+  left: 225px;
+  width:290px;
+  height: 540px;
+  background: url('../../public/joinbook.png');
+  overflow: hidden;
+
+  
+
+} 

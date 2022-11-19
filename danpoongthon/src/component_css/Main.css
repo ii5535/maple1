@@ -1,0 +1,124 @@
+.hole{
+    background : url('../../public/BG_main.png') no-repeat center;
+    background-color: #F5F5F5;
+    height:100vh;
+    background-size:cover;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.logodiv{
+    width:1312px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+
+.logo{
+    display:flex;
+    /* background-color: aliceblue; */
+    justify-content:left;
+       
+}
+.componentDiv{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.holemenuDiv{    
+    color:#3F3032;
+    display: flex;
+    /* background-color: rgba(17, 17, 91, 0.249); */
+    margin: 0px auto;
+    padding-top:10px;
+    width: 1312px;
+    text-align: center;
+    justify-content: space-between; 
+}
+.menuDiv{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-between; 
+}
+
+.menu{
+    font-weight: bold;
+    font-size:23px;
+    margin-right:5px;
+}
+
+.bar{
+    font-weight: bold; 
+    font-size:23px;
+}
+.dataname{
+    font-size:23px;
+    margin-left:12px;
+    margin-right:50px;
+}
+.data{
+    font-size:23px;
+    margin-left:12px;
+}
+
+.writebtn{
+    text-decoration: none;
+    border:none;
+    color:#F5F5F5;
+}
+
+.keyword{
+    font-size:15.07px;
+    color:#3F3032;
+    border: 1px solid #3F3032;
+    border-radius: 27.8px;
+    padding:12px;
+    margin-left:10px;
+}
+
+.share{
+    margin-left:10px;
+    object-fit: contain;
+
+}
+
+.bookDiv{
+    /* height:100vh; */
+    width:1900px;
+    /* background : url('../../public/BG_main.png') no-repeat center; */
+    /* background-size:cover; */
+}
+
+.contentDiv{
+    width: 1312px;
+    /* background-color: aliceblue; */
+    margin: 0px auto;
+}
+
+.title{      
+    /* background-color: rgb(153, 185, 212); */
+    font-size:23px;
+    font-weight: bold;
+    border-bottom:2px solid #3F3032;
+    width:333px;
+    padding-top:120px;
+    margin-left:200px;   
+}
+
+.storys{
+    /* position: absolute; */
+    /* background-color: aqua; */
+    width:503px;
+    height:700px;
+    padding:10px;
+    padding-top:30px;
+    margin-left:110px; 
+    
+}
+
+.story{
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset : 5px;
+    text-decoration-color: #3F3032;
+    text-decoration-thickness: 2px;
+}
